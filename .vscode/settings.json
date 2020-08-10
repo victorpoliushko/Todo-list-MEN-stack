@@ -1,0 +1,27 @@
+{
+  "prettier.disableLanguages": [],
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.rendererType": "dom",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+  },
+  "[html]": {
+    "editor.formatOnSave": false,
+  },
+  "[json]": {
+    "editor.formatOnSave": false,
+  },
+}
