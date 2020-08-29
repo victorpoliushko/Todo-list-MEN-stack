@@ -1,10 +1,14 @@
 const { Router } = require('express');
 const router = Router();
+const Todo = require('../models/Todo');
 
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
+  const todos = Todo.find({});
+
   res.render('index', {
     title: 'Todos list',
     isIndex: true,
+    todos,
   });
 });
 
